@@ -1,0 +1,7 @@
+*.log
+bin/
+cgi-bin/
+*.pyc
+*.*~
+hvpd.db
+rebootlog.db

@@ -1,0 +1,18 @@
+python -m py_compile *.py
+mv ai2filter*.pyc bin/ai2filter.pyc
+mv ai2getyuv*.pyc bin/ai2getyuv.pyc
+mv Ai2Lamp*.pyc bin/Ai2Lamp.pyc
+mv aifilter*.pyc bin/aifilter.pyc
+mv configfiles*.pyc bin/configfiles.pyc
+mv createdb*.pyc bin/createdb.pyc
+mv led_displayer*.pyc bin/led_displayer.pyc
+mv multi_ucmq*.pyc bin/multi_ucmq.pyc
+mv rmfiles*.pyc bin/rmfiles.pyc
+mv udpbroad*.pyc bin/udpbroad.pyc
+mv userjpg*.pyc bin/userjpg.pyc
+mv yuvfilter*.pyc bin/yuvfilter.pyc
+mv wdt*.pyc bin/wdt.pyc
+cp wtclib.pyc bin/wtclib.pyc
+cp hvpd_status.pyc bin/hvpd_status.pyc
+cp bin/* /home/bluecard/hvpd/prog/bin/
+

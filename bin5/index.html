@@ -1,0 +1,31 @@
+<html >
+<head>
+<title>AI Server</title>
+<meta http-equiv="content-type" content="text/html;charset=ISO-8869-1">
+</head>
+ <body overflag-y:scroll>
+
+<p><a href="/cgi-bin/allonlinehvpd.sh">All Online HVPDS</a></p>
+<p><a href="/cgi-bin/allonlineled.sh">All Online LED displayers</a></p>
+<p><a href="/cgi-bin/aiversion.sh">AI Server software version</a></p>
+<p><a href="/cgi-bin/hvpd2.sh">list double camera HVPDS</a></p>
+<p><a href="/cgi-bin/hvpd1.sh">list one camera HVPDS</a></p>
+
+<br />
+<form enctype="multipart/form-data" action="/cgi-bin/backupsql.sh"method="get">
+<p>Backup DATABASE<input type="submit"value="backupDB"/> </p>
+</form>
+<p><a href="/recoveryDB.html">Recovery DATABASE</a></p><br /><br />
+
+<form enctype="multipart/form-data" action="/cgi-bin/downloadhvpd.sh"method="post">
+<p>Upgrade HVPD firmware:<input type="file" name="filename"> <input type="submit"value="HVPD"/> </p>
+</form>
+
+<form enctype="multipart/form-data" action="/cgi-bin/downloadai.sh"method="post">
+<p>Upgrade AI Server:<input type="file" name="filename"> <input type="submit"value="AI Server"/> </p>
+</form>
+
+</body>
+</html>
+
+
